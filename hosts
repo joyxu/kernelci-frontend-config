@@ -1,7 +1,2 @@
-[local]
-kernelci-frontend
-
 [all]
-kernelci.org
-status.armcloud.us
-staging.status.armcloud.us
+openlab2 ansible_ssh_host=124.250.134.52 ansible_ssh_port=218 ansible_ssh_user=xuwei
