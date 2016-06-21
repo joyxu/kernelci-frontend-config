@@ -1,4 +1,4 @@
-hostname: LAVA
+hostname: kernelci
 role: staging
 uwsgi_processes: 6
 backend_url: http://114.119.4.74:8888/
