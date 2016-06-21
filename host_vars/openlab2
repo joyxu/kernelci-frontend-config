@@ -3,7 +3,7 @@ role: staging
 uwsgi_processes: 6
 backend_url: http://114.119.4.74:8888/
 base_url: http://114.119.4.74
-backend_token: 81f67c45-e4bf-4d64-8931-b2f1ac4923c1
+backend_token: db85d8fb-da63-4d77-950e-3dffcd8ce115
 secret_key: none
 file_server: http://114.119.4.74:808/
 google_analytics: none
