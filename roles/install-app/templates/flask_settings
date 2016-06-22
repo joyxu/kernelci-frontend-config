@@ -12,7 +12,8 @@ GOOGLE_ANALYTICS_ID = '{{ google_analytics }}'
 DATE_RANGE = 14
 INFO_EMAIL = '{{ info_email }}'
 
-CACHE_TYPE = 'redis'
+#CACHE_TYPE = 'redis'
+CACHE_TYPE = '{{ cache_type }}'
 {% if role == "production" %}
 DEBUG = False
 {% else %}
